@@ -1,0 +1,60 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    width: 100px;
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end
+  }
+  
+  #boton {
+    padding: 10px;
+    color: white;
+    background: green;
+    border: none;
+    outline: none;
+    cursor: default;
+    }
+  
+  .barra {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transition: all 0.5s;
+  }
+  li {
+    list-style: none;
+    width: 80%;
+  }
+  li:hover {
+    width: 100%;
+    transition: all 0.3s;
+  }
+  a {
+    text-align: center;
+    padding: 10px;
+    display: block;
+    color: white;
+  }
+  
+  .facebook {
+    background: rgb(0, 100, 250);
+  }
+  .twitter {
+    background: rgb(0, 160, 223);
+  }
+  .mail {
+    background: rgb(14, 0, 0);
+  }
+  a:hover {
+    background: black;
+  }
